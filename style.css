@@ -4,8 +4,28 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: white;
 }
+
+
+section p {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.footer_container {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
@@ -13,6 +33,7 @@ li, a, button {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    background-color:black;
 }
 
 .nav_bar {
@@ -20,6 +41,7 @@ li, a, button {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: black;
 }
 
 .logo {
@@ -28,11 +50,13 @@ li, a, button {
 
 .nav_links { 
     list-style: none;
+    background-color: black;
 }
 
 .nav_links li {
     display: inline-block;
     padding: 0px 20px;
+    
 }
 
 .nav_links li a {
@@ -58,4 +82,28 @@ button:hover {
 
 .logo { 
     font-weight: bold;
+    font-size: 24px;
+}
+
+.footer_grid_text {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    color: white;
+    font-size: 28px;
+}
+
+.footer_grid_list {
+    position: relative;
+    top: 75px;
+    left: 100px;
+    list-style: none; 
+}
+
+.footer_grid_list li {
+    padding: 10px;
+}
+
+.footer_grid_list a {
+    font-size: 20px;
 }
