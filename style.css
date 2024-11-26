@@ -107,3 +107,26 @@ button:hover {
 .footer_grid_list a {
     font-size: 20px;
 }
+
+.footer_grid_text2 {
+   position: relative;
+   left: 350px;
+   bottom: 156px;
+   color: white;
+   font-size: 28px;
+}
+
+.footer_grid_list2 {
+    position: relative;
+    left: 350px;
+    bottom: 135px;
+    list-style: none;
+}
+
+.footer_grid_list2 li {
+    padding: 10px;
+}
+
+.footer_grid_list2 a {
+    font-size: 20px;
+}
