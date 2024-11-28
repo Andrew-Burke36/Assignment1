@@ -7,52 +7,57 @@
             NewJeans
         </title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
     </head>
         
     <body>
         <script src="script.js"></script>
-        <header>
-            <img src="newjeans_logo.png" alt="#" class="logo">
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="tour.html">Tour</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="account.html">Account</a></li>
-                </ul>
-            </nav>
-            <a class="cta" href="#"><button>Contact</button></a>
+        <header>            
+            <!--NAVIGATION BAR-->
+            <div class="nav_bar">
+                <a href="index.html" class="logo-link"><img class="logo" src="newjeans_logo.png" alt="This is NewJeans"></a>
+                <button class="button" type="button" >Menu</button>
+                
+                <nav class="nav_links">
+                    <a href=""><i class="fa-solid fa-search"></i></a>
+                    <a href="account.html"><i class="fa-regular fa-user"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </nav>
+
+            </div>
         </header>
 
+        <!--Content-->
         <section>
-            <div id="container">
-                <img src="Newjeans.webp" alt="#" title="This is NewJeans">
+            <div class="section_container">
+                <h2>Sign in to your existing account</h2>
+                <div class="Signup_container">
+                    
+                </div>
             </div>
         </section>
 
-        <section>
-
-        </section>
-            
         <footer>
             <div class="footer_container">
-                <div class="footer_grid_block">
-                    <h2 class="footer_grid_text">QUICK LINKS</h2>
-                    <ul class="footer_grid_list">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Tour</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Account</a></li>
-                    </ul>
-
-                    <h2 class="footer_grid_text2">INFORMATION</h2>
-                    <ul class="footer_grid_list2">
-                        <li><a href="#">placeholder</a></li>
-                        <li><a href="#">placeholder</a></li>
-                        <li><a href="#">placeholder</a></li>
-                        <li><a href="#">placeholder</a></li>    
-                    </ul>
+                <div class="icons">
+                    <a href="https://www.facebook.com/official.newjeans/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/NewJeans_ADOR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/newjeans_official/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://music.apple.com/au/artist/newjeans/1635469693"><i class="fa-brands fa-apple"></i></a>
+                    <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://www.tiktok.com/@newjeans_official?lang=en"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
+                
+                
+                <nav class="footer_service">
+                    <ul class="footer_media">
+                        <li><a href="">Help & Support</a></li>
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Choices</a></li>
+                    </ul>
+                </nav>
             </div>
         </footer>
     </body>
