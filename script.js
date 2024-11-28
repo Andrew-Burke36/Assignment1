@@ -12,5 +12,5 @@ menuBtn2.addEventListener("click", () => {
 });
 
 overlay.addEventListener("click", () => {
-        navBar.classList.toggle("active")
+        navBar.classList.removes("active")
 });
