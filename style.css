@@ -180,9 +180,8 @@ header {
 .content_container img {
     display: block;
     width: 100%;
-    margin-bottom: 15%;
+    margin-bottom: 6%;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.6);
-
 }
 
 .section_container {
@@ -202,17 +201,17 @@ header {
 .product_container {
     display: flex;
     width: 100%;
+    padding: 0px 15%;
     flex-wrap: wrap;
 }
 
 /* Split control */
 .container_split {
-    
     display: flex;
     flex-grow: 1;
     flex-basis: 15%;
     flex-direction: column;
-    padding: 0px 5%;
+    padding: 5% 5%;
 }
 
 /* content image */
@@ -220,7 +219,8 @@ header {
     width: 100%;
     transition: all 0.3s ease;
     cursor: pointer;
-    box-shadow: -8px 5px 15px 3px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    box-shadow: -6px 5px 15px 2px rgba(0,0,0,0.3);
 }
 
 .container_split img:hover {
@@ -229,9 +229,23 @@ header {
 
 /* Header */
 
+.merch-info {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .container_split h2 {
     padding: 0px 5%;
     font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container_split h3 {
+    padding: 5% 5% 0px;
+    font-size: 28px;
+    font-weight: normal;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -320,34 +334,239 @@ header {
     transform: scaleX(1);
 }
 
+/* Shop page */
+/*Album style */
+
+/* header */
+.albumheader_container {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0px 0px;
+}
+
+.albumheader_container h1 {
+    font-size: 45px;
+}
+
+.album-container {
+    display: flex;
+    justify-content: center;
+    padding: 1% 8% 5%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.album-container .album-item {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 15%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.album-item .item-info h4 {
+    display: flex;
+    justify-content: center;
+    padding: 8% 0px 0px;
+}
+
+.album-item .item-info span {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0px;
+}
+
+.item-info h4 {
+    font-size: 20px;
+}
+
+.item-info span {
+    font-size: 18px;
+}
+
+.album-img {
+    display: flex;
+    justify-content: center;
+}
+
+.album-img img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: -2px 3px 15px 1px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.album-img img:hover {
+    transform: scale(1.025);
+    box-shadow: -4px 3px 15px 1px rgba(0,0,0,0.4);
+}
+
+/* Shop page */
+/* Apparel style */
+
+/* header */
+.apparelheader-container{
+    display: flex;
+    justify-content: center;
+}
+
+.apparelheader-container h1 {
+    font-size: 45px;
+}
+
+.apparel-container {
+    display: flex;
+    justify-content: center;
+    padding: 2% 8%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.apparel-container .apparel-item {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 15%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.apparel-item .item-info h4 {
+    display: flex;
+    justify-content: center;
+    padding: 8% 0px 0px;
+}
+
+.apparel-item .item-info span {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0px;
+}
+
+.item-info h4 {
+    font-size: 20px;
+}
+
+.item-info span {
+    font-size: 18px;
+}
+
+.apparel-img {
+    display: flex;
+    justify-content: center;
+}
+
+.apparel-img img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: -2px 3px 15px 1px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.apparel-img img:hover {
+    transform: scale(1.025);
+    box-shadow: -4px 3px 15px 1px rgba(0,0,0,0.4);
+}
+
+/* Shop page */
+/* Merchendise style */
+
+/* header */
+.merchendiseheader-container{
+    display: flex;
+    justify-content: center;
+}
+
+.merchendiseheader-container h1 {
+    font-size: 45px;
+}
+
+.merchendise-container {
+    display: flex;
+    justify-content: center;
+    padding: 2% 8%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.merchendise-container .merchendise-item {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 15%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.merchendise-item .item-info h4 {
+    display: flex;
+    justify-content: center;
+    padding: 8% 0px 0px;
+}
+
+.merchendise-item .item-info span {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0px;
+}
+
+.item-info h4 {
+    font-size: 20px;
+}
+
+.item-info span {
+    font-size: 18px;
+}
+
+.merchendise-img {
+    display: flex;
+    justify-content: center;
+}
+
+.merchendise-img img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: -2px 3px 15px 1px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+.merchendise-img img:hover {
+    transform: scale(1.025);
+    box-shadow: -4px 3px 15px 1px rgba(0,0,0,0.4);
+}
+
 /* Responsiveness  */
 
 @media screen and (min-width: 1px) {
-    .container_split p{
-        font-size: clamp(0.5em, 1.8vw, 2.5em);
+
+    .merch-info {
+        font-size: calc(2.5vw);
     }
 
-    .container_split h2 {
-        font-size: clamp(1em, 2.2vw, 2.5em)
+    .container_split p{
+        font-size: clamp(0.5em, 1.2vw, 2.5em);
+    }
+
+    .container_split h2, .container_split h3 {
+        font-size: clamp(1em, 1.5vw, 2.5em)
     }
 
     .container_split img {
-        width: clamp(50px, 100%, 750px)
+        width: clamp(50px , 100%, 750px)
     }
 
     .footer_media li a {
-        font-size: clamp(0.5em, 1.5vw, 3em);
+        font-size: clamp(0.5em, 1.1vw, 3em);
     }
     
-    .footer_media li {
-        padding-right: clamp(0.5em, 2vw, 2em);
-        padding-left: clamp(0.5em, 2vw, 2em);
-    }
-
     .footer_container .icons i {
-        padding-left: clamp(1em, 1.5vw, 2em);
-        padding-right: clamp(1em, 1.5vw, 2em);
-        font-size: clamp(0.7em, 1.5vw, 2em);
+        padding-left: clamp(1em, 1vw, 2em);
+        padding-right: clamp(1em, 1vw, 2em);
+        font-size: clamp(0.7em, 1.2vw, 2em);
     }
 }
 
