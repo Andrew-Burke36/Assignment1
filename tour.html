@@ -6,7 +6,8 @@
         <title>
             NewJeans
         </title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
     </head>
 
@@ -14,7 +15,6 @@
         <header>            
             <!--NAVIGATION BAR-->
             <div class="nav_bar">
-
                 <!-- LOGO-->
                 <a href="index.html" class="logo-link"><img class="logo" src="images/LOGO/newjeans_logo.png" alt="This is NewJeans"></a>
                 
@@ -24,8 +24,8 @@
                 <!--Navigation links-->
                 <nav class="nav_links">
                     <a href=""><i class="fa-solid fa-search"></i></a>
-                    <a href="account.html"><i class="fa-regular fa-user"></i></a>
-                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="signup.html"><i class="fa-regular fa-user"></i></a>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </nav>
                 
                 <!--Sidebar content-->
@@ -55,7 +55,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="account.html" class="nav-link">
+                                <a href="login.html" class="nav-link">
                                     <i class="fa-solid fa-user"></i>
                                     <span class="link">Account</span>
                                 </a>
@@ -63,18 +63,121 @@
                         </ul>
                     </div>
                 </div>
+                <!--menu_sidebar content-->
+                <div class="menu_sidebar">
+                    <div class="menusidebar_button">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+
+                    <div class="menusidebar_content">
+                       <h1>Your cart is empty.</h1>
+                       <a href="shop.html"><button type="button" class="menusidebutton">Continue shopping</button></a>
+                       <span>Have an account?</span>
+                       <a href="login.html"><span>Log in to check out faster</span></a>
+                    </div>
+                </div>
             </div>
         </header>
-        
-        <!-- Overlay-->
-        <section class="overlay"></section>
+        <main>
+            <!--Menu image-->
+            <section>
+                <div class="mustard-container">
+                    <img src="Images/Backgrounds/world_tour.png" alt="This is Newjeans">
+                </div>
+            </section>
 
-        <!--Content-->
-        <section>
-            <div class="content_container">
-                <h1>tour a tour a tour a</h1>
-            </div>
-        </section>
+            <!-- Tour information, date, countries-->
+            <section>
+                <div class="tour-container">
+                    <div class="tour-header">
+                        <div class="tour-filter">
+                            <button class="filter-all">ALL</button>
+                            <button class="filter-america">AMERICA</button>
+                            <button class="filter-europe">UK/EUROPE</button>
+                            <button class="filter-asia">ASIA</button>
+                            <button class="filter-oceania">OCEANIA</button>
+                        </div>
+                    </div>
+
+                    <div class="tour-list">
+                        <div class="tour-items">
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">JANUARY 9</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">ZAYED SPORTS CITY STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">ABU DHABI</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">JANUARY 14</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">D Y PATIL STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">MUMBAI</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">JANUARY 28</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">KAI TAK STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">HONG KONG</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">FEBRUARY 7</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">GOYANG STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">SEOUL</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">FEBURARY 14</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">STANDFORD STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">STANDFORD</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">FEBRUARY 23</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">ALLEGIANT STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">LAS VEGAS</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">FEBRUARY 30</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">SUN BOWL STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">EL PASO</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">MARCH 5</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">GILLETTE STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">BOSTON</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                            <div class="tour-outer">
+                                <div class="tour-inner">
+                                    <div class="tour-date"><span class="date">MARCH 12</span><br><span class="date">2025</span></div>
+                                    <div class="tour-location"><span class="location">ROGERS STADIUM</span></div>
+                                    <div class="tour-country"><span class="country">TORONTO</span></div>
+                                    <div class="ticket-button"><span class="status"><a href="https://ticketmaster.sg/activity/newjeans">TICKETS</a></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
         
 
@@ -101,6 +204,6 @@
                 </nav>
             </div>
         </footer>
-        <script src="script.js"></script>
+        <script src="script/script.js"></script>
     </body>
 </html>

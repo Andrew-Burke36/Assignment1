@@ -6,7 +6,8 @@
         <title>
             NewJeans
         </title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
     </head>
 
@@ -14,7 +15,6 @@
         <header>            
             <!--NAVIGATION BAR-->
             <div class="nav_bar">
-
                 <!-- LOGO-->
                 <a href="index.html" class="logo-link"><img class="logo" src="images/LOGO/newjeans_logo.png" alt="This is NewJeans"></a>
                 
@@ -24,8 +24,8 @@
                 <!--Navigation links-->
                 <nav class="nav_links">
                     <a href=""><i class="fa-solid fa-search"></i></a>
-                    <a href="account.html"><i class="fa-regular fa-user"></i></a>
-                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="signup.html"><i class="fa-regular fa-user"></i></a>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </nav>
                 
                 <!--Sidebar content-->
@@ -55,7 +55,7 @@
                                 </a>
                             </li>
                             <li class="list">
-                                <a href="account.html" class="nav-link">
+                                <a href="login.html" class="nav-link">
                                     <i class="fa-solid fa-user"></i>
                                     <span class="link">Account</span>
                                 </a>
@@ -63,11 +63,21 @@
                         </ul>
                     </div>
                 </div>
+                <!--menu_sidebar content-->
+                <div class="menu_sidebar">
+                    <div class="menusidebar_button">
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+
+                    <div class="menusidebar_content">
+                       <h1>Your cart is empty.</h1>
+                       <a href="shop.html"><button type="button" class="menusidebutton">Continue shopping</button></a>
+                       <span>Have an account?</span>
+                       <a href="login.html"><span>Log in to check out faster</span></a>
+                    </div>
+                </div>
             </div>
         </header>
-        
-        <!-- Overlay-->
-        <section class="overlay"></section>
 
         <!--ALBUM Content-->
         <div class="albumheader_container">
@@ -76,7 +86,7 @@
         <section class="album-container">
             <div class="album-item">
                 <div class="album-img">
-                    <img src="images/Album/product.webp" alt="#">
+                    <a href="albumitem1.html"><img src="images/Album/product.webp" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>NewJeans ‘How Sweet’ Standard ver.</h4>
@@ -85,7 +95,7 @@
             </div>
             <div class="album-item">
                 <div class="album-img">
-                    <img src="images/Album/NewJeansDigital.webp" alt="#">
+                    <a href="albumitem2.html"><img src="images/Album/NewJeansDigital.webp" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>NewJeans 2nd EP 'Get Up' Digital EP</h4>
@@ -94,7 +104,7 @@
             </div>
             <div class="album-item">
                 <div class="album-img">
-                    <img src="images/Album/NJ-1.webp" alt="#">
+                    <a href="albumitem3.html"><img src="images/Album/NJ-1.webp" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>NewJeans 1st EP ‘New Jeans’</h4>
@@ -103,7 +113,7 @@
             </div>
             <div class="album-item">
                 <div class="album-img">
-                    <img src="images/Album/NJ-2.webp" alt="#">
+                    <a href="albumitem4.html"><img src="images/Album/NJ-2.webp" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>'How Sweet' Digital Single</h4>
@@ -119,7 +129,7 @@
         <section class="apparel-container">
             <div class="apparel-item">
                 <div class="apparel-img">
-                    <img src="images/Apparel/cap.png" alt="#">
+                    <a href="apparelcap.html"><img src="images/Apparel/cap.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>BUNNIES CAMP BALL CAP</h4>
@@ -128,7 +138,7 @@
             </div>
             <div class="apparel-item">
                 <div class="apparel-img">
-                    <img src="images/Apparel/t-shirt.png" alt="#">
+                    <a href="appareltshirt.html"><img src="images/Apparel/t-shirt.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>NewJeans X MURAKAMI T-SHIRTS</h4>
@@ -137,7 +147,7 @@
             </div>
             <div class="apparel-item">
                 <div class="apparel-img">
-                    <img src="images/Apparel/sweatpants.png" alt="#">
+                    <a href="apparelpants.html"><img src="images/Apparel/sweatpants.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>BUNNIES CAMP SET-UP PANTS</h4>
@@ -146,7 +156,7 @@
             </div>
             <div class="apparel-item">
                 <div class="apparel-img">
-                    <img src="images/Apparel/sweatshirt.png" alt="#">
+                    <a href="apparelhoodie.html"><img src="images/Apparel/sweatshirt.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>BUNNIES CAMP SET-UP HOODIE</h4>
@@ -164,7 +174,7 @@
 
             <div class="merchendise-item">
                 <div class="merchendise-img">
-                    <img src="images/Merchandise/lightstickparts_hanni.png" alt="#">
+                    <a href="merchendiseitem1.html"><img src="images/Merchandise/lightstickparts_hanni.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>Light Stick Parts (HANNI)</h4>
@@ -173,7 +183,7 @@
             </div>
             <div class="merchendise-item">
                 <div class="merchendise-img">
-                    <img src="images/Merchandise/orangelightstick.png" alt="#">
+                    <a href="merchendiseitem2.html"><img src="images/Merchandise/orangelightstick.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>Light Stick & Parts Set (DANIELLE)</h4>
@@ -182,7 +192,7 @@
             </div>
             <div class="merchendise-item">
                 <div class="merchendise-img">
-                    <img src="images/Merchandise/posing_topper.png" alt="#">
+                    <a href="merchendiseitem3.html"><img src="images/Merchandise/posing_topper.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>NU+JEANS POSING TOPPER</h4>
@@ -191,7 +201,7 @@
             </div>
             <div class="merchendise-item">
                 <div class="merchendise-img">
-                    <img src="images/Merchandise/charm_set.png" alt="#">
+                    <a href="merchendiseitem4.html"><img src="images/Merchandise/charm_set.png" alt="#"></a>
                 </div>
                 <div class="item-info">
                     <h4>CHARM SET</h4>
@@ -225,6 +235,6 @@
                 </nav>
             </div>
         </footer>
-        <script src="script.js"></script>
+        <script src="script/script.js"></script>
     </body>
 </html>
