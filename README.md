@@ -10,6 +10,9 @@ Else in this instance is a user who wants to buy their merchandise to support th
 
 Likewise, the website is catering to really push out merchandise to incoming users to increase profits for the group and the company, hence more of an emphasize of apparels on the main page to attract users as well as showing the tour for the group to attract users to buy the tour tickets to increase viewership for the group, profits and popularity and less of an emphasis on group publicization but ensuring that necessary information the users want to know is publicly available on the website for them to access.
 
+Wireframe used in this:
+https://www.figma.com/design/kcnt2AhwJLH4g6EkxEa60C/ID_S10266774D_AndrewJohnBurke_Assg1_wireframe?node-id=3-4&t=8o726i6eRPgZaeC8-1
+
 Features
 
 My current features on my website are account page that allows users to check on their orders, save their payments and update their profiles to be able to sign up to newsletters and etc, allowing users to have easier payment navigation when buying products, checking on purchased item. Through a sign up page and hence a log in page so that users can create their accounts to store their data and history when on the website.
